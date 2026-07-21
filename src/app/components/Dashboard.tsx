@@ -354,7 +354,7 @@ export function Dashboard() {
             <div
               style={{
                 display: "grid",
-                gridTemplateColumns: "2.5fr 1fr 110px 130px 160px",
+                gridTemplateColumns: "2.5fr 1fr 110px 130px 210px",
                 padding: "10px 20px",
                 backgroundColor: "#F9FAFB",
                 borderBottom: "1px solid #E5E7EB",
@@ -373,7 +373,7 @@ export function Dashboard() {
                 key={a.id}
                 style={{
                   display: "grid",
-                  gridTemplateColumns: "2.5fr 1fr 110px 130px 160px",
+                  gridTemplateColumns: "2.5fr 1fr 110px 130px 210px",
                   padding: "16px 20px",
                   alignItems: "center",
                   borderBottom: i < articles.length - 1 ? "1px solid #F3F4F6" : "none",
